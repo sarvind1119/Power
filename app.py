@@ -87,9 +87,6 @@ qa_with_sources = RetrievalQAWithSourcesChain.from_chain_type(
     chain_type="stuff",
     retriever=vectorstore.as_retriever()
 )
-query="Give the key points of TwelfthFiveYearPlan2012-17"
-#qa_with_sources(query)
-import streamlit as st
 
 # Sidebar contents
 with st.sidebar:
