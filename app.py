@@ -103,19 +103,19 @@ with st.sidebar:
     <div style="color: green;">
     <ul>
         <li>Energy-Statistics-India-2023_07022024.pdf</a></li>
-        <li><a href="https://www.example.com/esn_report_2024.pdf" target="_blank">ESN Report-2024_New-21032024.pdf</a></li>
-        <li><a href="https://www.example.com/manual_on_transmission_planning.pdf" target="_blank">Manual on Transmission Planning Criteri...</a></li>
-        <li><a href="https://www.example.com/mop_annual_report_2018_19.pdf" target="_blank">MOP_Annual_Report_Eng_2018-19.pdf</a></li>
-        <li><a href="https://www.example.com/mop_annual_report_2019_20.pdf" target="_blank">MOP_Annual_Report_Eng_2019-20.pdf</a></li>
-        <li><a href="https://www.example.com/mop_annual_report_2020_21.pdf" target="_blank">MOP_Annual_Report_Eng_2020-21.pdf</a></li>
-        <li><a href="https://www.example.com/mop_annual_report_2021_22.pdf" target="_blank">MOP_Annual_Report_Eng_2021-22.pdf</a></li>
-        <li><a href="https://www.example.com/mop_annual_report_2022_23.pdf" target="_blank">MOP_Annual_Report_Eng_2022-23 (1).pdf</a></li>
-        <li><a href="https://www.example.com/press_release_prid_1.pdf" target="_blank">pib.gov.inPressreleaseshare.aspx_PRID=1...</a></li>
-        <li><a href="https://www.example.com/power_sector_glance_feb_2024.pdf" target="_blank">power_sector_at_glance_Feb_2024.pdf</a></li>
-        <li><a href="https://www.example.com/renewable_electricity_roadmap.pdf" target="_blank">Report-onIndiaRenewableElectricityRoad...</a></li>
-        <li><a href="https://www.example.com/saarc_framework_agreement.pdf" target="_blank">SAARC_framework_agreement_for_energ...</a></li>
-        <li><a href="https://www.example.com/electricity_act_2003.pdf" target="_blank">The Electricity Act_2003.pdf</a></li>
-        <li><a href="https://www.example.com/umpp_projects_july_2021.pdf" target="_blank">UMPP_Projects_28th_July_2021.pdf</a></li>
+        <li>ESN Report-2024_New-21032024.pdf</a></li>
+        <li>Manual on Transmission Planning Criteri...</a></li>
+        <li>MOP_Annual_Report_Eng_2018-19.pdf</a></li>
+        <li>MOP_Annual_Report_Eng_2019-20.pdf</a></li>
+        <li>MOP_Annual_Report_Eng_2020-21.pdf</a></li>
+        <li>MOP_Annual_Report_Eng_2021-22.pdf</a></li>
+        <li>MOP_Annual_Report_Eng_2022-23 (1).pdf</a></li>
+        <li>pib.gov.inPressreleaseshare.aspx_PRID=1...</a></li>
+        <li>power_sector_at_glance_Feb_2024.pdf</a></li>
+        <li>Report-onIndiaRenewableElectricityRoad...</a></li>
+        <li>SAARC_framework_agreement_for_energ...</a></li>
+        <li>The Electricity Act_2003.pdf</a></li>
+        <li>UMPP_Projects_28th_July_2021.pdf</a></li>
     </ul>
     </div>
     ''', unsafe_allow_html=True)
