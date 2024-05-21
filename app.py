@@ -125,7 +125,7 @@ with st.sidebar:
     ---
 
     **In case of suggestions/feedback/Contributions please reach out to:**
-    [NIC Training Unit](mailto:nictu@lbsnaa.gov.in)
+    [NIC Training Unit @ nictu@lbsnaa.gov.in]
     ''')
 
 # Sidebar contents
