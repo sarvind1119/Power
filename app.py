@@ -102,7 +102,7 @@ with st.sidebar:
     st.markdown('''
     <div style="color: green;">
     <ul>
-        <li><a href="https://www.example.com/energy_statistics_2023.pdf" target="_blank">Energy-Statistics-India-2023_07022024.pdf</a></li>
+        <li>Energy-Statistics-India-2023_07022024.pdf</a></li>
         <li><a href="https://www.example.com/esn_report_2024.pdf" target="_blank">ESN Report-2024_New-21032024.pdf</a></li>
         <li><a href="https://www.example.com/manual_on_transmission_planning.pdf" target="_blank">Manual on Transmission Planning Criteri...</a></li>
         <li><a href="https://www.example.com/mop_annual_report_2018_19.pdf" target="_blank">MOP_Annual_Report_Eng_2018-19.pdf</a></li>
