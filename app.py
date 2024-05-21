@@ -92,14 +92,14 @@ query="Give the key points of TwelfthFiveYearPlan2012-17"
 
 # Sidebar contents
 with st.sidebar:
-    st.title('💬 LLM Chat App on Ministry of Tribal Affairs documents...')
+    st.title('💬 LLM Chat App on Ministry of Power documents...')
     st.markdown('''
     ## About
-    This GPT helps in answering questions related to document of Ministry of Tribal Affairs
+    This GPT helps in answering questions related to document of Ministry of Power
 
 
 
-    [Documents Repository](https://drive.google.com/drive/folders/1Xq4-oZR43Fp4rSKBnVLXqJpP4BXD7Wzf?usp=drive_link)
+    [Documents Repository](https://drive.google.com/drive/folders/1PrS8uaqpAFogLl-lK4IDHDcJ8FA7vjlL?usp=drive_link)
  
     ''')
     #add_vertical_space(5)
@@ -142,7 +142,7 @@ def display_answer(answer):
             st.markdown(content)
 
 def main():
-    st.title("Question and Answering App powered by LLM and Pinecone")
+    st.title("Question and Answering App powered by LLM and Pinecone on Ministry of Power")
     text_input = st.text_input("Ask your query...") 
 
     if st.button("Ask Query"):
