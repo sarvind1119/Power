@@ -89,21 +89,62 @@ qa_with_sources = RetrievalQAWithSourcesChain.from_chain_type(
 )
 query="Give the key points of TwelfthFiveYearPlan2012-17"
 #qa_with_sources(query)
+import streamlit as st
 
 # Sidebar contents
 with st.sidebar:
-    st.title('💬 LLM Chat App on Ministry of Power documents...')
+    st.title('💬 LLM Chat App on  Ministry of Power documents...')
     st.markdown('''
     ## About
-    This GPT helps in answering questions related to document of Ministry of Power
-
-
+    This GPT helps in answering questions related to document of Ministry of Power.
 
     [Documents Repository](https://drive.google.com/drive/folders/1PrS8uaqpAFogLl-lK4IDHDcJ8FA7vjlL?usp=drive_link)
- 
     ''')
-    #add_vertical_space(5)
-    st.write('Made by LBSNAA for learning purpose](https://www.lbsnaa.gov.in/)')
+    
+    # Adding the list with green bullet points
+    st.markdown('''
+    <div style="color: green;">
+    <ul>
+        <li><a href="https://www.example.com/energy_statistics_2023.pdf" target="_blank">Energy-Statistics-India-2023_07022024.pdf</a></li>
+        <li><a href="https://www.example.com/esn_report_2024.pdf" target="_blank">ESN Report-2024_New-21032024.pdf</a></li>
+        <li><a href="https://www.example.com/manual_on_transmission_planning.pdf" target="_blank">Manual on Transmission Planning Criteri...</a></li>
+        <li><a href="https://www.example.com/mop_annual_report_2018_19.pdf" target="_blank">MOP_Annual_Report_Eng_2018-19.pdf</a></li>
+        <li><a href="https://www.example.com/mop_annual_report_2019_20.pdf" target="_blank">MOP_Annual_Report_Eng_2019-20.pdf</a></li>
+        <li><a href="https://www.example.com/mop_annual_report_2020_21.pdf" target="_blank">MOP_Annual_Report_Eng_2020-21.pdf</a></li>
+        <li><a href="https://www.example.com/mop_annual_report_2021_22.pdf" target="_blank">MOP_Annual_Report_Eng_2021-22.pdf</a></li>
+        <li><a href="https://www.example.com/mop_annual_report_2022_23.pdf" target="_blank">MOP_Annual_Report_Eng_2022-23 (1).pdf</a></li>
+        <li><a href="https://www.example.com/press_release_prid_1.pdf" target="_blank">pib.gov.inPressreleaseshare.aspx_PRID=1...</a></li>
+        <li><a href="https://www.example.com/power_sector_glance_feb_2024.pdf" target="_blank">power_sector_at_glance_Feb_2024.pdf</a></li>
+        <li><a href="https://www.example.com/renewable_electricity_roadmap.pdf" target="_blank">Report-onIndiaRenewableElectricityRoad...</a></li>
+        <li><a href="https://www.example.com/saarc_framework_agreement.pdf" target="_blank">SAARC_framework_agreement_for_energ...</a></li>
+        <li><a href="https://www.example.com/electricity_act_2003.pdf" target="_blank">The Electricity Act_2003.pdf</a></li>
+        <li><a href="https://www.example.com/umpp_projects_july_2021.pdf" target="_blank">UMPP_Projects_28th_July_2021.pdf</a></li>
+    </ul>
+    </div>
+    ''', unsafe_allow_html=True)
+
+    # Add vertical space
+    st.markdown('''
+    ---
+
+    **In case of suggestions/feedback/Contributions please reach out to:**
+    [NIC Training Unit](mailto:nictu@lbsnaa.gov.in)
+    ''')
+
+# Sidebar contents
+# with st.sidebar:
+#     st.title('💬 LLM Chat App on Ministry of Power documents...')
+#     st.markdown('''
+#     ## About
+#     This GPT helps in answering questions related to document of Ministry of Power
+
+
+
+#     [Documents Repository](https://drive.google.com/drive/folders/1PrS8uaqpAFogLl-lK4IDHDcJ8FA7vjlL?usp=drive_link)
+ 
+#     ''')
+#     #add_vertical_space(5)
+#     st.write('Made by LBSNAA for learning purpose](https://www.lbsnaa.gov.in/)')
 
 # def main():
 #     #st.title("Question and Answering App powered by LLM and Pinecone")
